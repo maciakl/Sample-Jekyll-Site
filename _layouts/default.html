@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	<head>
+		<title>{% if page.title %} {{ page.title }} | {% endif %} My Page</title>
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+
+	<body>
+		<div id="header">
+			<h1>Welcome to my page</h1>
+			<h4>Here is some tagline</h4>
+			<hr />
+		</div>
+
+		<div id="sidebar">
+
+			<h3>First Heading</h3>
+
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+			</ul>
+
+			<h3>Second Heading</h3>
+
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+			</ul>
+		</div>
+
+		<div id="content">
+
+			{{ content }}
+
+		</div>
+
+		<div id="footer">
+			<hr />
+			<p>&copy; 2012 Luke Maciak</p>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+  font-size: 12px;
+  font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+  color:#564b47;  
+  
+}
+
+#content {
+
+	width: 65%;
+	min-width: 600px;
+	margin-left: 200px;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+	min-width: 200px;
+}
+
+
+#footer {
+	clear: both;
+	width: 100%;
+}
+
+.post {
+	margin: 10px;
+}
+
+.entry {
+	margin-left: 10px;
+	padding: 10px;
+}
+
+.meta {
+	padding-top: 10px;
+}
