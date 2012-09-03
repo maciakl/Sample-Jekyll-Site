@@ -5,6 +5,7 @@
 	<head>
 		<title>{% if page.title %} {{ page.title }} | {% endif %} My Page</title>
 		<link rel="stylesheet" href="/style.css" />
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
 	</head>
 
 	<body>
@@ -21,7 +22,7 @@
 			<ul>
 				<li><a href="/">Home</a></li>
 				<li><a href="/archive">Archive</a></li>
-				<li><a href="#">Link 2</a></li>
+				<li><a href="/feed.xml">RSS Feed</a></li>
 			</ul>
 
 			<h3>Second Heading</h3>
