@@ -1,5 +1,8 @@
 name: Sample Jekyll Blog
 description: This is a sample Jekyll Blog.
 
+#baseurl: /folder 
+url: http://yourdomain.com/
+
 auto: true
 permalink: pretty
