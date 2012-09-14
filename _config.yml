@@ -1,8 +1,19 @@
+# Name of your blog (this will show up in the RSS feed)
 name: Sample Jekyll Blog
+
+# Short description (will also be used in the RSS feed)
 description: This is a sample Jekyll Blog.
 
-#baseurl: /folder 
+# Uncomment if you are planning to run the blog in a subdirectory
+# Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
+# Example, you must use http://localhost:4000/path/to/blog
+#baseurl: /path/to/blog 
+
+# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://yourdomain.com/
 
+# Continue compiling even if there are errors. Keep it true, unless troubleshooting.
 auto: true
+
+# Makes pretty permalinks. See Jekyll docs for alternatives.
 permalink: pretty

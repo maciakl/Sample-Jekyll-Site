@@ -2,6 +2,8 @@ body {
   font-size: 12px;
   font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
   color:#564b47;  
+  padding-left: 50px;
+  padding-right: 20%;
 }
 
 pre {
@@ -9,6 +11,27 @@ pre {
     margin-left: 30px;
     padding: 5px;
     width: 80%;
+}
+
+code {
+    background-color: #E8E8E8;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+pre {
+    background-color: #E8E8E8;
+    margin-left: 30px;
+    padding: 5px;
+    width: 80%;
+}
+
+table {
+    border: none;
+}
+
+td {
+    padding-left: 20px;
 }
 
 
@@ -25,6 +48,14 @@ pre {
 	min-width: 200px;
 }
 
+#sidebar a:visited,
+#sidebar a:active {
+    color: blue;
+}
+
+#sidebar a:hover {
+    color: blue;
+}
 
 #footer {
 	clear: both;
@@ -38,6 +69,12 @@ pre {
 .entry {
 	margin-left: 10px;
 	padding: 10px;
+}
+
+.entry img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .meta {
