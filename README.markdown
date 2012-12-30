@@ -55,12 +55,14 @@ You can specify multiple categories using a comma separated list.
 Deploying to Subdirectory
 -------------------------
 
-You can deploy to a subdirectory. For example instead of running your site at `http://foo.tld/` you can instead put it in `http://foo.tld/blog/`. To do this use the `baseurl` setting in `_config.yaml`. For example if you set it to:
+You can deploy to a subdirectory. For example instead of running your site at `http://foo.tld/` you can instead put it in `http://foo.tld/blog/`. To do this use the `url` and  `baseurl` settings in `_config.yaml`. The former is used for absolute links (like in the RSS feed) while the latter is used for relative links (like everywhere on the front page). For example if you set it to:
 
     baseurl: /blog
-    url: http://foo.tld
+    url: http://foo.tld/blog
 
-Then the html files will still be generated in `_site` but all the links will be generated relative to `/blog`. When you run the built-in Jekyll server you will need to access your site by going to `http://localhost:4000/blog`.
+Then the html files will still be generated in `_site` but all the links will be generated either relative to `/blog` or using the absolute url of `http://foo.tld/blog`. 
+
+**Note**: when you run the built-in Jekyll server you will need to access your site by going to `http://localhost:4000/blog`.
 
 Credits
 -------
