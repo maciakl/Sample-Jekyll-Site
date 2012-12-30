@@ -5,6 +5,20 @@ This is an example of a very basic Jekyll site. It lays down the basic folder st
 
 This is a perfect starting point for building your own Jekyll site.
 
+Complete Idiot's Guide
+----------------------
+
+To use this template:
+
+1. Clone to some directory
+* Modify `_config.yaml` with your name, blog title, description and etc...
+* Tweak `style.css` and HTML files in `_layouts` to personalize
+* Create blog entries in `_posts/` - work off the sample posts there
+* Run `jekyll --server` to generate site locally
+* View it by going to `http://localhost:4000` and make sure it looks good
+* If all is well, upload contents of `_site` to your server
+* Repeat steps 4-7 to update blog
+
 Features
 --------
 
