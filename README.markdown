@@ -5,6 +5,20 @@ This is an example of a very basic Jekyll site. It lays down the basic folder st
 
 This is a perfect starting point for building your own Jekyll site.
 
+Requirements
+------------
+
+Development time dependencies:
+
+* [Ruby][rb]
+* [Gems][gm]
+* [Jekyll][jk]
+
+Run-time dependencies:
+
+* A web server (any will do)
+
+
 Complete Idiot's Guide
 ----------------------
 
@@ -51,4 +65,9 @@ Then the html files will still be generated in `_site` but all the links will be
 Credits
 -------
 
-This sample layout uses plugins created by Dave Perret (recursive-design.com) to generate categories and sitemaps. Credit where credit is due. Please see the `_plugins` directory for details.
+This sample layout uses plugins created by [Dave Perret][dp] to generate categories and sitemaps. Credit where credit is due. Please see the `_plugins` directory for details.
+
+[rb]: http://www.ruby-lang.org/
+[gm]: http://rubygems.org/
+[jk]: https://github.com/mojombo/jekyll
+[dp]: http://recursive-design.com
