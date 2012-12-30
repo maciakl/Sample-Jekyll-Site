@@ -4,12 +4,15 @@ layout: default
 
 <div class="post">
 
-	<h2>{{ page.title }}</h2>
-	<span class="date">{{ page.date | date_to_string }}</span>
+    <h2>{{ page.title }}</h2>
+
+    <span class="date">{{ page.date | date_to_string }}</span><br>
+
+    <span class="category">Category: {{ page.categories | category_links }}</span>
 
 	<div class="entry">{{ content }}</div>
 
-	<span class="meta"></span>
+    <span class="meta"><small>By {{ site.author }} &copy; {{page.date | date: "%Y"}}</small></span>
 
 </div>
 

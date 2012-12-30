@@ -1,6 +1,7 @@
 ---
 layout: post
 title: This is just a Test
+category: category2
 
 excerpt: Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit.
 ---

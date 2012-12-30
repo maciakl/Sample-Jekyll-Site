@@ -4,6 +4,13 @@ name: Sample Jekyll Blog
 # Short description (will also be used in the RSS feed)
 description: This is a sample Jekyll Blog.
 
+# Your name, as you want it to appear underneath each post
+author: Your Name
+
+# The directory for category index pages. Change it to something else if
+# for example you want links like /categories/category1 instead of /category1
+category_dir: /
+
 # Uncomment if you are planning to run the blog in a subdirectory
 # Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
 # Example, you must use http://localhost:4000/path/to/blog

@@ -80,3 +80,10 @@ td {
 .meta {
 	padding-top: 10px;
 }
+
+.category {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: x-small;
+
+}
