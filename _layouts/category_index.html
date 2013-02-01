@@ -6,7 +6,7 @@ layout: default
     <h2>{{ page.title }}</h2>
     
     <div class="entry">
-        <table border=0>
+        <table>
             {% for post in site.categories[page.category] %}
             <tr>
                 <td>&bull; &nbsp;<span class="date">{{ post.date | date_to_string }}</span></td>  
