@@ -64,6 +64,19 @@ Then the html files will still be generated in `_site` but all the links will be
 
 **Note**: when you run the built-in Jekyll server you will need to access your site by going to `http://localhost:4000/blog`.
 
+Linting & Validation
+---
+
+You can use [Grunt.js][gr] to automatically validate the HTML in your generated site. First install the dependencies:
+
+    npm install
+
+Then run Grunt:
+
+    grunt
+
+This will automatically run all the files in `_site` directory through a HTML5 linter/validator.
+
 Credits
 -------
 
@@ -73,3 +86,4 @@ This sample layout uses plugins created by [Dave Perret][dp] to generate categor
 [gm]: http://rubygems.org/
 [jk]: https://github.com/mojombo/jekyll
 [dp]: http://recursive-design.com
+[gr]: http://gruntjs.com

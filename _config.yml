@@ -27,4 +27,4 @@ permalink: pretty
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: package.json, grunt.js, Gruntfile.js, node_modules
+exclude: README.markdown, package.json, grunt.js, Gruntfile.js, node_modules

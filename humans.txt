@@ -11,7 +11,8 @@ maciak.net *  terminally-incoherent.com * @LukeMaciak
 
 # THANKS
 
-    Me, myself and I. Also that other guy.
+    Dave Perrert (Jekyll Plugins)   -- http://recursive-design.com
+    Chintan Patel (favicon)         -- https://github.com/chintan100
 
 # TECHNOLOGY
 
