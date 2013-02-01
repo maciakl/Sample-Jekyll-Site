@@ -1,0 +1,20 @@
+ _          _        __  __            _       _    
+| |   _   _| | _____|  \/  | __ _  ___(_) __ _| | __
+| |  | | | | |/ / _ \ |\/| |/ _` |/ __| |/ _` | |/ /
+| |__| |_| |   <  __/ |  | | (_| | (__| | (_| |   < 
+|_____\__,_|_|\_\___|_|  |_|\__,_|\___|_|\__,_|_|\_\
+maciak.net *  terminally-incoherent.com * @LukeMaciak
+
+# TEAM
+
+    Luke Maciak -- @LukeMaciak
+
+# THANKS
+
+    Me, myself and I. Also that other guy.
+
+# TECHNOLOGY
+
+    HTML5, CSS3, Jekyll, Ruby
+
+
