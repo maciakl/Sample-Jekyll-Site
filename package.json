@@ -1,0 +1,9 @@
+{
+  "author": "",
+  "name": "SampleJekyllBlog",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-html": "~0.2.x"
+  }
+}

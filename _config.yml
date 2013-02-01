@@ -24,3 +24,7 @@ auto: true
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: pretty
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: package.json, grunt.js, Gruntfile.js, node_modules
