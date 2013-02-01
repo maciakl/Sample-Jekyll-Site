@@ -13,6 +13,7 @@ Development time dependencies:
 * [Ruby][rb]
 * [Gems][gm]
 * [Jekyll][jk]
+* [Node.js][no] & [Grunt.js][gr] (optional)
 
 Run-time dependencies:
 
@@ -87,3 +88,4 @@ This sample layout uses plugins created by [Dave Perret][dp] to generate categor
 [jk]: https://github.com/mojombo/jekyll
 [dp]: http://recursive-design.com
 [gr]: http://gruntjs.com
+[no]: http://nodejs.com
