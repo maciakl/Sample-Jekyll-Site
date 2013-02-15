@@ -111,5 +111,5 @@ Archive page:
 [gr]: http://gruntjs.com
 [no]: http://nodejs.com
 
-)y]: http://typicons.com/
+[ty]: http://typicons.com/
 [fo]: http://fontello.com/
