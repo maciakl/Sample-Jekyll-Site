@@ -1,19 +1,13 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="post">
-    <h2>{{ page.title }}</h2>
-    
-    <div class="entry">
         <table>
             {% for post in site.categories[page.category] %}
             <tr>
-                <td>&bull; &nbsp;<span class="date">{{ post.date | date_to_string }}</span></td>  
+                <td><i class="icon-clock"></i><span class="date">{{ post.date | date_to_string }}</span></td>  
                 <td><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></td>
-                <td><span class="category"><small>{{post.categories | category_links}}</small></span></td>
+                <td><span class="category"><i class="icon-tag"></i> {{post.categories | category_links}}</span></td>
             </tr>
             {% endfor %}
         </table>
-    </div>
-</div>

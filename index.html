@@ -8,12 +8,15 @@ title: Home
 	
 	<div class="post">
 
-		<h2>{{ post.title }}</h2>
-		<span class="date">{{ post.date | date_to_string }}</span>
+        <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+
+        <p class="meta">
+            <span class="date"><i class="icon-clock"></i>{{ post.date | date_to_string }}</span><br/>
+            <span class="category"><i class="icon-tag"></i> {{ post.categories | category_links }}</span><br/>
+            <span class="author"><i class="icon-user"></i> {% if post.author %}{{post.author}}{% else %}{{site.author}}{% endif%}</span>
+        </p>
 	
 		<div class="entry">{{ post.excerpt }}</div>
-
-        <span class="meta"><a href="{{site.baseurl}}{{ post.url }}">Read More</a></span>
 	</div>
 
 	

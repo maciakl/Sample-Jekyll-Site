@@ -6,13 +6,13 @@ layout: default
 
     <h2>{{ page.title }}</h2>
 
-    <span class="date">{{ page.date | date_to_string }}</span><br>
-
-    <span class="category">Category: {{ page.categories | category_links }}</span>
+        <p class="meta">
+            <span class="date"><i class="icon-clock"></i>{{ page.date | date_to_string }}</span><br/>
+            <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
+            <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
+        </p>
 
 	<div class="entry">{{ content }}</div>
-
-    <span class="meta"><small>By {{ site.author }} &copy; {{page.date | date: "%Y"}}</small></span>
 
 </div>
 

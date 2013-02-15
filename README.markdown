@@ -83,9 +83,33 @@ Credits
 
 This sample layout uses plugins created by [Dave Perret][dp] to generate categories and sitemaps. Credit where credit is due. Please see the `_plugins` directory for details.
 
+The web font icons have been created based on the [Typicon][ty] set and customized via the [Fontello][fo] service.
+
+
+Screenshots
+-----------
+
+Just so you can see how it looks:
+
+Front page:  
+  
+![Front Page](http://i.imgur.com/Fmy6FPt.jpg) "Front Page"
+  
+Individual post:
+  
+![Individual post](http://i.imgur.com/o6sSJEt.jpg) "Individual Post"
+  
+Archive page:
+  
+![Archive page](http://i.imgur.com/WeXFkWn.jpg) "Archive Page"
+
+
 [rb]: http://www.ruby-lang.org/
 [gm]: http://rubygems.org/
 [jk]: https://github.com/mojombo/jekyll
 [dp]: http://recursive-design.com
 [gr]: http://gruntjs.com
 [no]: http://nodejs.com
+
+)y]: http://typicons.com/
+[fo]: http://fontello.com/

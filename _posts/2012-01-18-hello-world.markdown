@@ -1,10 +1,15 @@
 ---
 layout: post
-title: This is just a Test
-category: category2
+title: Hello World!
+category: Meta
 
-excerpt: Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit.
+excerpt: Hello World! Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit.
+
 ---
+
+Hello World!
+
+This is just a sample post.
 
 Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit. Praesent blandit, mi id facilisis adipiscing, tortor tellus mollis quam, sed dignissim sapien diam ac lectus. Nunc eget ornare quam. Vivamus sit amet tortor dolor, non egestas ligula. Mauris nisi risus, semper nec blandit id, suscipit eget dolor. Sed placerat odio at erat porttitor varius. Phasellus ornare vestibulum dolor ac rhoncus. Mauris laoreet varius est eu rhoncus. Curabitur facilisis mauris eu purus pharetra vitae tincidunt nulla gravida. Duis sagittis, felis a luctus mattis, metus sem tempus velit, sit amet blandit tellus nisi id augue.
 

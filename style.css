@@ -6,6 +6,18 @@ body {
   padding-right: 20%;
 }
 
+h1,h2,h3,h4 {
+    width: 100%;
+    min-width: 840px;
+}
+
+hr {
+    margin-left: 0;
+    padding-left: 0;
+	width: 100%;
+	min-width: 840px;
+}
+
 pre {
     background-color: #E8E8E8;
     margin-left: 30px;
@@ -34,10 +46,13 @@ td {
     padding-left: 20px;
 }
 
+a:hover {
+    color: #696969;
+}
 
 #content {
 
-	width: 65%;
+	width: 75%;
 	min-width: 600px;
 	margin-left: 200px;
 }
@@ -48,13 +63,19 @@ td {
 	min-width: 200px;
 }
 
+#sidebar a,
 #sidebar a:visited,
 #sidebar a:active {
     color: blue;
 }
 
 #sidebar a:hover {
-    color: blue;
+    color: #696969;
+}
+
+#sidebar li {
+    margin-left: -25px;
+    list-style: none;
 }
 
 #footer {
@@ -66,8 +87,19 @@ td {
 	margin: 10px;
 }
 
+.post h2>a,
+.post h2>a:visited,
+.post h2>a:active {
+    text-decoration: none;
+    color: blue;
+}
+
+.post h2>a:hover {
+    color: #696969;
+}
+
 .entry {
-	margin-left: 10px;
+	margin-left: 15px;
 	padding: 10px;
 }
 
@@ -75,15 +107,11 @@ td {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 .meta {
-	padding-top: 10px;
-}
-
-.category {
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: x-small;
-
+	margin-top: -10px;
+	margin-bottom: -3px;
+	margin-left: 5px;
 }

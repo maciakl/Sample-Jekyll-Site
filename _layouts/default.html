@@ -5,9 +5,14 @@
         <meta charset="utf-8"/>
         <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
         <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
-        <meta name="description" content=""/>
+        <meta name="description" content="{{site.description}}"/>
+        <meta name="author" content="{{site.author}}"/>
         <link rel="author" href="humans.txt"/>
         <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
+
+        <link rel="stylesheet" href="/resources/fontello/css/fontello.css">
+        <link rel="stylesheet" href="/resources/fontello/css/animation.css">
+        <!--[if IE 7]><link rel="stylesheet" href="/resources/fontello/css/fontello-ie7.css"><![endif]-->
 	</head>
 
 	<body>
@@ -22,17 +27,18 @@
 			<h3>First Heading</h3>
 
 			<ul>
-                <li><a href="{{site.baseurl}}/">Home</a></li>
-                <li><a href="{{site.baseurl}}/archive">Archive</a></li>
-                <li><a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
+                <li><i class="icon-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
+                <li><i class="icon-mail"></i>   <a href="{{site.baseurl}}/contact">Contact</a></li>
+                <li><i class="icon-th"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
+                <li><i class="icon-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
 			</ul>
 
 			<h3>Second Heading</h3>
 
 			<ul>
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
+                <li><i class="icon-link"></i>   <a href="#">Link 1</a></li>
+				<li><i class="icon-link"></i>   <a href="#">Link 2</a></li>
+				<li><i class="icon-link"></i>   <a href="#">Link 3</a></li>
 			</ul>
 		</div>
 
