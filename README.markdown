@@ -93,15 +93,15 @@ Just so you can see how it looks:
 
 Front page:  
   
-![Front Page](http://i.imgur.com/Fmy6FPt.jpg) "Front Page"
+![Front Page](http://i.imgur.com/WeXFkWn.jpg) 
   
 Individual post:
   
-![Individual post](http://i.imgur.com/o6sSJEt.jpg) "Individual Post"
+![Individual post](http://i.imgur.com/o6sSJEt.jpg) 
   
 Archive page:
   
-![Archive page](http://i.imgur.com/WeXFkWn.jpg) "Archive Page"
+![Archive page](http://i.imgur.com/Fmy6FPt.jpg) 
 
 
 [rb]: http://www.ruby-lang.org/
