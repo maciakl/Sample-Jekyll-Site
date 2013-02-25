@@ -13,7 +13,8 @@ Development time dependencies:
 * [Ruby][rb]
 * [Gems][gm]
 * [Jekyll][jk]
-* [Node.js][no] & [Grunt.js][gr] (optional)
+* [Rdiscount][rd] (optional - comment out in `_confing.yaml` to use Maroku)
+* [Node.js][no] & [Grunt.js][gr] (optional - only if you wish to use GruntJS)
 
 Run-time dependencies:
 
@@ -107,6 +108,7 @@ Archive page:
 [rb]: http://www.ruby-lang.org/
 [gm]: http://rubygems.org/
 [jk]: https://github.com/mojombo/jekyll
+[rd]: https://github.com/rtomayko/rdiscount/
 [dp]: http://recursive-design.com
 [gr]: http://gruntjs.com
 [no]: http://nodejs.com
