@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
+    <head>
         <meta charset="utf-8"/>
         <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
         <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
@@ -13,46 +13,48 @@
         <link rel="stylesheet" href="/resources/fontello/css/fontello.css">
         <link rel="stylesheet" href="/resources/fontello/css/animation.css">
         <!--[if IE 7]><link rel="stylesheet" href="/resources/fontello/css/fontello-ie7.css"><![endif]-->
-	</head>
+    </head>
 
-	<body>
-		<div id="header">
-            <h1>Welcome to {{ site.name }}</h1>
-            <h4>{{ site.description }}</h4>
-			<hr />
-		</div>
+    <body>
+        <header>
+            <hgroup>
+            <h1><a href="{{site.baseurl}}/">Welcome to {{ site.name }}</a></h1>
+                <h4>{{ site.description }}</h4>
+            </hgroup>
+            <hr />
+        </header>
 
-		<div id="sidebar">
+        <nav>
 
-			<h3>First Heading</h3>
+            <h3>First Heading</h3>
 
-			<ul>
+            <ul>
                 <li><i class="icon-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
                 <li><i class="icon-mail"></i>   <a href="{{site.baseurl}}/contact">Contact</a></li>
                 <li><i class="icon-th"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
                 <li><i class="icon-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
-			</ul>
+            </ul>
 
-			<h3>Second Heading</h3>
+            <h3>Second Heading</h3>
 
-			<ul>
+            <ul>
                 <li><i class="icon-link"></i>   <a href="#">Link 1</a></li>
-				<li><i class="icon-link"></i>   <a href="#">Link 2</a></li>
-				<li><i class="icon-link"></i>   <a href="#">Link 3</a></li>
-			</ul>
-		</div>
+                <li><i class="icon-link"></i>   <a href="#">Link 2</a></li>
+                <li><i class="icon-link"></i>   <a href="#">Link 3</a></li>
+            </ul>
+        </nav>
 
-		<div id="content">
+        <main>
 
-			{{ content }}
+            {{ content }}
 
-		</div>
+        </main>
 
-		<div id="footer">
-			<hr />
-            <p>&copy; 2012 {{ site.author }}</p>
-		</div>
+        <footer>
+            <hr />
+            <p>&copy; <time>2012</time> {{ site.author }}</p>
+        </footer>
 
-	</body>
+    </body>
 
 </html>

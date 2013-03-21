@@ -1,9 +1,18 @@
 body {
-  font-size: 12px;
-  font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
-  color:#564b47;  
-  padding-left: 50px;
-  padding-right: 20%;
+    font-size: 12px;
+    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+    color:#564b47;  
+    padding-left: 50px;
+    padding-right: 20%;
+}
+
+body>header h1>a {
+    color:#564b47;
+    text-decoration: none;
+}
+
+body>header h4 {
+    margin-top: -10px;
 }
 
 h1,h2,h3,h4 {
@@ -50,68 +59,77 @@ a:hover {
     color: #696969;
 }
 
-#content {
+main {
 
 	width: 75%;
 	min-width: 600px;
-	margin-left: 200px;
+	margin-left: 150px;
+	display: block;
 }
 
-#sidebar {
+nav {
 	float: left;
-	width: 200px;
-	min-width: 200px;
+	width: 150px;
+	min-width: 150px;
 }
 
-#sidebar a,
-#sidebar a:visited,
-#sidebar a:active {
+nav a,
+nav a:visited,
+nav a:active {
     color: blue;
 }
 
-#sidebar a:hover {
+nav a:hover {
     color: #696969;
 }
 
-#sidebar li {
+nav li {
     margin-left: -25px;
     list-style: none;
 }
 
-#footer {
+footer {
 	clear: both;
 	width: 100%;
 }
 
-.post {
+article {
 	margin: 10px;
 }
 
-.post h2>a,
-.post h2>a:visited,
-.post h2>a:active {
+article h2>a,
+article h2>a:visited,
+article h2>a:active {
     text-decoration: none;
     color: blue;
 }
 
-.post h2>a:hover {
+article h2>a:hover {
     color: #696969;
 }
 
-.entry {
+article .entry {
 	margin-left: 15px;
 	padding: 10px;
 }
 
-.entry img {
+article .entry img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
-.meta {
+article header span {
 	margin-top: -10px;
 	margin-bottom: -3px;
 	margin-left: 5px;
+}
+
+article header h2 {
+    margin-bottom: 3px;
+}
+
+section address {
+    margin-left: 15px;
 }
