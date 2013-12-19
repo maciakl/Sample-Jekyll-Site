@@ -3,17 +3,17 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    htmllint: {
-        files: '_site/**/*.html'
+    validation: {
+        files: "_site/**/!(google*).html"
     },
     watch: {
-      files: '<config:htmllint.files>',
-      tasks: 'htmllint'
+        files: "<config:htmllint.files>",
+        tasks: 'validate'
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-html');
-  grunt.registerTask('default', 'htmllint');
+  grunt.loadNpmTasks('grunt-html-validation');
+  grunt.registerTask('default', 'validation');
 
 };
