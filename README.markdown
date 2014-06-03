@@ -1,6 +1,8 @@
 Simple Jekyll Site
 ===
 
+[![endorse](https://api.coderwall.com/luke/endorsecount.png)](https://coderwall.com/luke)
+
 This is an example of a very basic Jekyll site. It lays down the basic folder structure, uses very basic CSS to make it look presentable and leaves everything else up to you.
 
 This is a perfect starting point for building your own Jekyll site.
@@ -73,11 +75,16 @@ You can use [Grunt.js][gr] to automatically validate the HTML in your generated 
 
     npm install
 
-Then run Grunt:
+You can use the following Grunt commands:
 
-    grunt
+- `grunt jshint` - to lint your `scripts.js` file using JSHint
+- `grunt csslint` - to lint your `styles.css` file
+= `grunt validation` - to validate all the HTML files in `_site`
 
-This will automatically run all the files in `_site` directory through a HTML5 linter/validator.
+Please note that validation is done against the W3C server. If you have many pages, you may get temporarily locked out for abuse.
+
+To lint js and css simultaneously simply run `grunt` with no parameters. Validation is only on-demand because of the potential lockout.
+
 
 Credits
 -------
