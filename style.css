@@ -134,6 +134,14 @@ section address {
     margin-left: 15px;
 }
 
-#more {
+#paginator {
+    padding: 10px;
+}
+
+#paginator a {
+    text-decoration: none;
+}
+
+.more {
     margin-left: 80%;
 }
