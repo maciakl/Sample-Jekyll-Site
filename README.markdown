@@ -79,7 +79,7 @@ You can use the following Grunt commands:
 
 - `grunt jshint` - to lint your `scripts.js` file using JSHint
 - `grunt csslint` - to lint your `styles.css` file
-= `grunt validation` - to validate all the HTML files in `_site`
+- `grunt validation` - to validate all the HTML files in `_site`
 
 Please note that validation is done against the W3C server. If you have many pages, you may get temporarily locked out for abuse.
 
