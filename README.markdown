@@ -23,8 +23,8 @@ Run-time dependencies:
 * A web server (any will do)
 
 
-Complete Idiot's Guide
-----------------------
+Beginners Guide
+---------------
 
 To use this template:
 
@@ -55,6 +55,11 @@ To use the category feature simply add category tag at the top of your post:
     category: some_category_name
 
 You can specify multiple categories using a comma separated list.
+
+Known Issues
+------------
+
+The plugins in the `_plugins` directory are not compatible with Github pages. If you want to deploy your site to Github, you might need to give up on these plugins.
 
 Deploying to Subdirectory
 -------------------------
