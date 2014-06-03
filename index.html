@@ -4,7 +4,7 @@ title: Home
 ---
 
 <!-- Show last 5 posts here -->
-{% for post in site.posts limit: 5  %}
+{% for post in paginator.posts %}
 	<article>
 
         <header>
@@ -18,3 +18,24 @@ title: Home
 
 	</article>
 {% endfor %}
+
+
+
+{% if paginator.next_page %}
+        <a href="{{site.baseurl}}/page{{paginator.next_page}}">
+        &laquo; Older Posts</a>
+{% endif %}
+
+{% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+            <span id="more">
+            <a href="{{site.baseurl}}/">
+            Newer Posts &raquo; </a>
+            </span>
+    {% else %}
+            <span id="more">
+            <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
+            Newer Posts &raquo; </a>
+            </span>
+    {% endif %}
+{% endif %}
